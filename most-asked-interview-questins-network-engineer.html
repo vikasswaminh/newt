@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NH Schedule Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    var MemberSpace = window.MemberSpace || { "subdomain": "networkershome2" };
+    (function (d) {
+      var s = d.createElement("script");
+      s.src = "https://cdn.memberspace.com/scripts/widgets.js";
+      var e = d.getElementsByTagName("script")[0];
+      e.parentNode.insertBefore(s, e);
+    })(document);
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+  <!-- Navbar -->
+  <header class="bg-white border-b shadow-sm sticky top-0 z-50">
+    <div class="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold text-indigo-600 hover:opacity-90 transition">NH LOGIN</a>
+      <nav>
+        <ul class="hidden md:flex space-x-6 text-base font-medium">
+                <li><a href="/download" class="hover:text-indigo-600 transition">Download</a></li>
+          <li><a href="/schedule" class="hover:text-indigo-600 transition">Schedule</a></li>
+          <li><a href="/newsletter" class="hover:text-indigo-600 transition">Newsletter</a></li>
+          <li><a href="/community" class="hover:text-indigo-600 transition">Community</a></li>
+          <li><a href="/placements" class="hover:text-indigo-600 transition">Recent Placements</a></li>
+          <li><a href="/guidance" class="hover:text-indigo-600 transition">Career Guidance</a></li>
+          <li><a href="/jobs" class="hover:text-indigo-600 transition">Jobs</a></li>
+        </ul>
+        <!-- Mobile nav toggle (optional) -->
+      </nav>
+    </div>
+  </header>
+
+<section class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-yellow-600">🎯 Real-World Network Engineer Interview Questions</h2>
+      <p class="mt-3 text-lg text-gray-600">Be ready for scenario-based questions that test practical knowledge, not just theory.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Category 1: Troubleshooting -->
+      <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-yellow-700 mb-4">🛠️ Troubleshooting Scenarios</h3>
+        <ul class="text-gray-700 space-y-2 list-disc list-inside">
+          <li>How do you troubleshoot a user who can’t access the internet?</li>
+          <li>What’s your approach if ping to the default gateway fails?</li>
+          <li>How would you isolate a flapping switch port?</li>
+          <li>How do you trace a routing loop?</li>
+          <li>How do you know if an issue is DNS related?</li>
+        </ul>
+      </div>
+
+      <!-- Category 2: Device Configuration -->
+      <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-yellow-700 mb-4">📡 Device Configuration</h3>
+        <ul class="text-gray-700 space-y-2 list-disc list-inside">
+          <li>How do you configure a Cisco router from CLI?</li>
+          <li>Explain VLAN and trunk configuration.</li>
+          <li>How have you used HSRP in production?</li>
+          <li>What happens when a port security violation occurs?</li>
+          <li>How do you configure and verify NAT?</li>
+        </ul>
+      </div>
+
+      <!-- Category 3: Network Security -->
+      <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-yellow-700 mb-4">🔒 Network Security</h3>
+        <ul class="text-gray-700 space-y-2 list-disc list-inside">
+          <li>Experience with firewalls (ASA, Palo Alto, etc)?</li>
+          <li>How do you block IP/subnet access?</li>
+          <li>Difference between stateful and stateless firewalls?</li>
+          <li>Example use of ACLs in real networks?</li>
+          <li>How do you secure management access?</li>
+        </ul>
+      </div>
+
+      <!-- Category 4: Routing & Switching -->
+      <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-yellow-700 mb-4">🌐 Routing & Switching</h3>
+        <ul class="text-gray-700 space-y-2 list-disc list-inside">
+          <li>Why choose OSPF over EIGRP or BGP?</li>
+          <li>How to verify route propagation?</li>
+          <li>Difference between Layer 2 & Layer 3 switches?</li>
+          <li>How do you resolve asymmetric routing?</li>
+          <li>Have you worked with SD-WAN or automation?</li>
+        </ul>
+      </div>
+
+      <!-- Category 5: Monitoring & Operations -->
+      <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-yellow-700 mb-4">⚙️ Monitoring & Operations</h3>
+        <ul class="text-gray-700 space-y-2 list-disc list-inside">
+          <li>What tools do you use for monitoring?</li>
+          <li>How do you detect a broadcast storm?</li>
+          <li>How would you mitigate a DDoS attack?</li>
+          <li>Steps to handle a critical link failure?</li>
+          <li>How do you document network changes?</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <p>&copy; 2025 CareerHub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
