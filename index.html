@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NH LOGIN</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  <script> var MemberSpace = window.MemberSpace || {"subdomain":"networkershome2"}; (function(d){ var s = d.createElement("script"); s.src = "https://cdn.memberspace.com/scripts/widgets.js"; var e = d.getElementsByTagName("script")[0]; e.parentNode.insertBefore(s,e); }(document)); </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NH Schedule Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    var MemberSpace = window.MemberSpace || { "subdomain": "networkershome2" };
+    (function (d) {
+      var s = d.createElement("script");
+      s.src = "https://cdn.memberspace.com/scripts/widgets.js";
+      var e = d.getElementsByTagName("script")[0];
+      e.parentNode.insertBefore(s, e);
+    })(document);
+  </script>
 </head>
 
-<body class="bg-gray-50 text-gray-900">
-    <!-- Navbar -->
-    <header class="bg-white shadow-md">
-        <div class="max-w-screen-xl mx-auto px-4 py-6 flex justify-between items-center">
-            <a href="#" class="text-2xl font-semibold text-indigo-600">NH LOGIN</a>
-            <nav>
-                <ul class="flex space-x-8">
-                    <li><a href="/schedule" class="text-lg hover:text-indigo-600">Schedule</a></li>
-                    <li><a href="/newsletter" class="text-lg hover:text-indigo-600">Newsletter</a></li>
-                    <li><a href="/community" class="text-lg hover:text-indigo-600">Community</a></li>
-                    <li><a href="/placements" class="text-lg hover:text-indigo-600">Recent Placements</a></li>
-                    <li><a href="/guidance" class="text-lg hover:text-indigo-600">Career Guidance</a></li>
-                      <li><a href="/guidance" class="text-lg hover:text-indigo-600">Jobs</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+  <!-- Navbar -->
+  <header class="bg-white border-b shadow-sm sticky top-0 z-50">
+    <div class="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold text-indigo-600 hover:opacity-90 transition">NH LOGIN</a>
+      <nav>
+        <ul class="hidden md:flex space-x-6 text-base font-medium">
+          <li><a href="/schedule" class="hover:text-indigo-600 transition">Schedule</a></li>
+          <li><a href="/newsletter" class="hover:text-indigo-600 transition">Newsletter</a></li>
+          <li><a href="/community" class="hover:text-indigo-600 transition">Community</a></li>
+          <li><a href="/placements" class="hover:text-indigo-600 transition">Recent Placements</a></li>
+          <li><a href="/guidance" class="hover:text-indigo-600 transition">Career Guidance</a></li>
+          <li><a href="/jobs" class="hover:text-indigo-600 transition">Jobs</a></li>
+        </ul>
+        <!-- Mobile nav toggle (optional) -->
+      </nav>
+    </div>
+  </header>
 
     <!-- Hero Section -->
     <section class="bg-indigo-600 text-white text-center py-20">
